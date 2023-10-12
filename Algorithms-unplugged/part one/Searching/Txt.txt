@@ -1,0 +1,5 @@
+Q1 : what is the Advantage of Comparing Right to Left in SearchText algorithms ? 
+
+    Comparing "w" and "t" from right to left lets you skip positions in "t" without missing "w" matches,
+    making it easier to find matches.
+Q2

@@ -17,8 +17,8 @@ Q1 : When we use MergeSort and QuickSort ?
         Choose Quick Sort for efficiency with limited memory and random data.
         Explore hybrid algorithms like TimSort for balanced performance.
         Analyze your specific data and requirements for the best choice.
-
 Q2 : what is Parallel Sorting ? 
+
     The text talks about a special way to sort things really quickly using special hardware.
     It's like having a super-fast machine that can organize items in a list very fast.
 
@@ -35,3 +35,4 @@ Q2 : what is Parallel Sorting ?
     So, it's like having a very fast car, but you need a lot of expensive parts to make it work.
 
     In the end, this method is all about balancing speed and complexity when sorting things.
+Q3

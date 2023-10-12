@@ -49,7 +49,6 @@ function Merge_Sort(arr){
     return sort(arr , 0 , arr.length - 1)
 }
 
-// console.time("create time v2")
-// Merge_Sort(ex1)
-// console.timeEnd("create time v2")
-module.exports = Merge_Sort
+console.time("create time v2")
+Merge_Sort(ex1)
+console.timeEnd("create time v2")
