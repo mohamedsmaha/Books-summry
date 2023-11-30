@@ -81,7 +81,7 @@ function Fifth_Version(number){
     }
     return obj
 }
-let number = 1000000
+let number = 10000
 console.time("First Version")
 first_Version(number)
 console.timeEnd("First Version")
