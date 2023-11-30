@@ -63,41 +63,51 @@ function Fourth_Version(number){
     }
     return obj
 }
-function Fifth_Version(number){
-    function give_me_ObjectNumbers(to){
-        let obj = {}
-        for(let i =1 ; i < to + 1 ; i++ ){
-            obj[i] = true
-        }
-        return obj
+function Fifth_Version(n) {
+    // Step 3: Write down all numbers between 2 and n into a list
+    let numbers = {};
+    for (let i = 2; i <= n; i++) {
+        numbers[i] = true;
     }
-    let obj = give_me_ObjectNumbers(number)
-    for(let i = 2 ; i <= (number)**0.5 ; i++ ){
-        if(obj[i] == undefined){continue}
-        for(let j =number/2 ; j > -1 ; j--){
-            if([obj[j] == undefined]){continue}
-            delete obj[i*j]
+
+    // Step 4: Iterate for i from 2 to √n
+    for (let i = 2; i <= Math.sqrt(n); i++) {
+        // Step 5: If i is present in the list
+        if (numbers[i]) {
+            // Step 6: Iterate for k from ⌈n/i⌉ to i step -1
+            for (let k = Math.ceil(n / i); k >= i; k--) {
+                // Step 7: If k is present in the list
+                if (numbers[k]) {
+                    // Step 8: Remove the number i * k from the list
+                    delete numbers[i * k];
+                }
+            }
         }
     }
-    return obj
+
+    // The keys of the 'numbers' object now contain the prime numbers between 2 and n
+    return Object.keys(numbers).map(Number);
 }
-let number = 10000
-console.time("First Version")
-first_Version(number)
-console.timeEnd("First Version")
 
-console.time("Secound Version")
-secound_Version(number)
-console.timeEnd("Secound Version")
 
-console.time("Thired Version")
-Thired_Version(number)
-console.timeEnd("Thired Version")
+// let number = 10000
+// console.time("First Version")
+// first_Version(number)
+// console.timeEnd("First Version")
 
-console.time("Fourth Version")
-Fourth_Version(number)
-console.timeEnd("Fourth Version")
+// console.time("Secound Version")
+// secound_Version(number)
+// console.timeEnd("Secound Version")
 
-console.time("Fifth Version")
-Fifth_Version(number)
-console.timeEnd("Fifth Version")
+// console.time("Thired Version")
+// Thired_Version(number)
+// console.timeEnd("Thired Version")
+
+// console.time("Fourth Version")
+// console.log(Fourth_Version(242))
+// console.timeEnd("Fourth Version")
+
+// console.time("Fifth Version")
+// Fifth_Version(242)
+// console.timeEnd("Fifth Version")
+module.exports = { Fifth_Version };
