@@ -1,0 +1,27 @@
+// Chapter 21 : Codes – Protecting Data Against Errors and Loss
+Q1: what is Code ?
+    a code is used to protect data during transmission from specific types of errors
+Q2: what is erasure ?
+    a number that is so messy or smudged that you cannot tell what it is would be called an erasure in coding terminology
+Q3: what is Reed–Solomon Codes ? 
+    Reed–Solomon codes, developed in 1960 by Irving Reed and Gustave Solomon, are vital in coding, offering efficient protection against both erasures and errors.
+    These codes represent data points on a line, enabling reliable encoding and decoding algorithms. Berlekamp–Welch algorithms further enhance the decoding process.
+    For erasures, sending additional points on the line ensures successful recovery of the original message. Reed–Solomon codes are optimal,
+    needing only a certain number of points for efficient decoding,
+    regardless of which ones are received. While effective for small messages
+Q4: what is LDCP ?
+    helper Link to undestant : https://www.youtube.com/watch?v=RWUxtGh-guY
+    the main concept involves connecting data and parity values through linear equations, achieved using XOR.
+    This linkage is crucial for solving a chain of equations when transmission occurs.
+    The goal is to determine the accurate values of both data and parity without encountering any erasures.
+Q5: NetWork Code ? 
+    Network coding introduces a different approach to data transmission in computer networks.
+    Instead of waiting for routers to finish processing one piece of data before sending the next,
+    network coding allows for the mixing or combining of data using XOR operations.
+    This innovative technique can potentially improve the efficiency and speed of data transmission in networks,
+    offering a faster and more optimized way to handle information flow.
+
+// Chapter 20 : Hashing
+for more info : https://www.youtube.com/watch?v=2BldESGZKB8
+Q6: What is the difference between Hashing and Encreption ?
+    Hashing is one way function , Encreption is not one way function

@@ -35,4 +35,3 @@ Q2 : what is Parallel Sorting ?
     So, it's like having a very fast car, but you need a lot of expensive parts to make it work.
 
     In the end, this method is all about balancing speed and complexity when sorting things.
-Q3
