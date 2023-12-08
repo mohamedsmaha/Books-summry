@@ -1,0 +1,9 @@
+// Random
+    Helper Video : https://www.youtube.com/watch?v=_tN2ev3hO14
+Q1: Can computers really create things that are totally random?
+    No, they can't. Computers are like really organized workers—they do things step by step.
+    When we talk about a "random" function, it's more like mixing up past stuff and using tricks to give us numbers that seem random.
+    But, here's the thing: these tricks have limits.
+    After a while, the computer starts doing the same tricks over again.
+    The better the tricks and the bigger the amount of stuff the computer uses, the more random it seems.
+    But, if we use less stuff, the computer's pattern becomes easier to guess.
