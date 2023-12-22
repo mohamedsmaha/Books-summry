@@ -1,8 +1,8 @@
 let length_of_array = 1000
 let Friends_List = Array(length_of_array).fill(0)
-let r1                   = 19
-let numberOfUnreliable  = 200 // Should be Smaller or equal to Friends List.length
-const R_Range           = [19,19] // The Range of R that you want see in Statistics 
+let r1                   = 4
+let numberOfUnreliable   = 500 // Should be Smaller or equal to Friends List.length
+const R_Range           = [4,4] // The Range of R that you want see in Statistics 
 const numberOfScenarios = 1000; // Number of scenarios to check every possibility for r
                                 // As the number of scenarios increases, the accuracy of the result improves
 function addRandomUnreliable(num, numberOfUnreliable , friendsList) {
@@ -74,13 +74,8 @@ function Check2 (arr1 , method){
         }
         object[i]["Ideal_case"]          = (object[i]["Ideal_case"]*100 / numberOfScenarios).toFixed(1) + " %"
         object[i]["UnReachedreliable"]   = (object[i]["UnReachedreliable"][0]*100/(length_of_array *object[i]["UnReachedreliable"][1] )).toFixed(1) +" %"
-        object[i] = {"ideal_Case" : object[i]["Ideal_case"]}
+        // object[i] = {"ideal_Case" : object[i]["Ideal_case"]}
     }
-    // for(let i =R_Range[0] ; i < R_Range[1] + 1; i++){
-    //     if(parseInt(object[i]["Ideal_case"]) == 0 ){
-    //         delete object[i]
-    //     }
-    // }
     return object
 }
 

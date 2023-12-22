@@ -7,3 +7,17 @@ Q1: Can computers really create things that are totally random?
     After a while, the computer starts doing the same tricks over again.
     The better the tricks and the bigger the amount of stuff the computer uses, the more random it seems.
     But, if we use less stuff, the computer's pattern becomes easier to guess.
+
+// Dynamic Programming
+ Note1 : it is petter to use loop not recursive
+Q2: What is Dynamic Programming?
+    DP involves breaking down the main problem into smaller subproblems.
+    Once we solve a subproblem, we remember its solution so that we don't have to solve it again.
+
+Q3: How much time does Dynamic Programming take?
+    The time taken by Dynamic Programming is proportional to the number of subproblems multiplied by the time it takes to solve each subproblem.
+
+Q4: what is Bottom up in DP?
+    Bottom-up in DP: Start small, solve simple problems first,
+    store solutions, build up to solve the main problem iteratively.
+    Efficient and avoids redundant work
