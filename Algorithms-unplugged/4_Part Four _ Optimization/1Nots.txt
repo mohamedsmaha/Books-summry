@@ -1,0 +1,11 @@
+// Shortest paths
+Q1 : Dynamic programming can achieve the same functionality as Dijkstra's algorithm ? 
+
+    Dijkstra's algorithm is designed for finding the shortest path in weighted graphs,
+    efficient when edge weights are non-negative. In contrast,
+    dynamic programming is a general optimization technique, breaking problems into subproblems. 
+    While dynamic programming can solve some instances of the shortest path problem, 
+    Dijkstra's algorithm is more straightforward and efficient for this task.
+    Dijkstra's time complexity makes it effective for finding the shortest path in graphs.
+    In summary, dynamic programming is versatile for optimization,
+    but Dijkstra's algorithm excels in efficiently solving the weighted graph shortest path problem.
