@@ -9,3 +9,25 @@ Q1 : Dynamic programming can achieve the same functionality as Dijkstra's algori
     Dijkstra's time complexity makes it effective for finding the shortest path in graphs.
     In summary, dynamic programming is versatile for optimization,
     but Dijkstra's algorithm excels in efficiently solving the weighted graph shortest path problem.
+
+// Minimum_spanning_Tree
+Q2 : When do we use it instead of Dijkstra's algorithm?      
+    generally used  when you want to create a tree that connects all nodes with the minimum possible total edge weight
+
+// Maximum Matching
+Q3 : What is Bipartite graph ? 
+    A bipartite graph is one where vertices can be split into two distinct groups,
+    and edges only connect vertices from different groups.
+
+Q4 : What it Maximum Matching ? 
+    Maximum Matching is like finding the largest set of non-overlapping edges in a bipartite graph,
+    ensuring the most compatible pairs without conflicts.
+    It's a way to optimize pairings efficiently using algorithms.
+
+Q5 : what is the relation between Max Matching and Max flow ? 
+    Both Maximum Matching and Maximum Flow involve flow networks, use augmenting paths,
+    and share algorithmic techniques for optimizing connectivity or flow through a graph. 
+
+resources : 
+    1 : https://www.youtube.com/watch?v=zrGnYstL4ss
+    2 : https://www.youtube.com/watch?v=pmMwGyoGlXk
