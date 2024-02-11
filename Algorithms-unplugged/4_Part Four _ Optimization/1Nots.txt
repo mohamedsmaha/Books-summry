@@ -31,3 +31,26 @@ Q5 : what is the relation between Max Matching and Max flow ?
 resources : 
     1 : https://www.youtube.com/watch?v=zrGnYstL4ss
     2 : https://www.youtube.com/watch?v=pmMwGyoGlXk
+
+// Online Algorithms
+Q6 : What is Online Algorithm ? 
+    An online problem refers to a scenario where decisions must be made without knowing the future,
+    presenting challenges in making optimal decisions due to incomplete information.
+    
+Q7 : What is Offline Algorithm ? 
+    An offline algorithm is a computational method that operates with complete information about a problem,
+    including all inputs and future events.
+    It can compute an optimal solution by considering the entire input beforehand.
+    Unlike online algorithms,offline algorithms have access to all necessary data and can make decisions based on full knowledge of the problem.
+
+Q8 : What does it mean for an algorithm to be 2-competitive ? 
+    An algorithm is considered 2-competitive if, in the context of an online problem,
+    its performance guarantees that the total cost incurred by the algorithm is at most twice the cost of an optimal offline solution,
+    regardless of the input sequence.
+    In other words, the algorithm's cost is competitive with the best possible outcome, even without knowing the future inputs
+
+Q9 : Why is 2-competitive analysis important for making algorithms ?
+    it helps us understand how well algorithms perform when we don't know what's going to happen next.
+    It's like a measuring stick that tells us if an algorithm is doing a good job even when it doesn't have all the information. 
+    It's useful because it helps us design algorithms that work reasonably well in situations where things are uncertain.
+
